@@ -1,0 +1,41 @@
+Transactional HTML Email
+Overview:
+
+This repository contains the code for a transactional HTML email template designed for various transactional purposes such as order confirmations, account notifications, etc.
+File Structure:
+
+   • index.html: Main HTML file containing the structure, content, and styling of the email.
+
+   • styles.css: CSS file for styling the HTML email.
+
+   • images: Folder containing all images used in the email template.
+
+Instructions:
+
+   1. HTML Content: Modify the content in the <body> of index.html to tailor the message, headings, paragraphs, and links according to the specific transactional use case.
+
+   2. Styles: Adjust styles in styles.css to match the branding and desired appearance of the email. Use classes and IDs to target specific elements for styling.
+
+   3. Images: Replace the images in the images folder with relevant visuals. Ensure the image file names match those referenced in the HTML file.
+
+Testing:
+
+   • Use an HTML email tester (e.g., Litmus, Email on Acid) to preview the email across various email clients (Gmail, Outlook, etc.) and devices (desktop, mobile).
+
+   • Test responsiveness by checking how the email renders on different screen sizes.
+
+Best Practices:
+
+   • Inline CSS: For better email client compatibility, inline CSS styles within the HTML.
+
+   • Mobile Responsiveness: Ensure the email is mobile-friendly for a better user experience.
+
+   • Accessibility: Confirm that the email content is accessible to all users, including those using screen readers.
+
+   • Testing: Always test the email thoroughly before deploying it to ensure it renders correctly across different platforms.
+
+Credits:
+
+   • Author: [https://brandelaleu.com]
+   
+
